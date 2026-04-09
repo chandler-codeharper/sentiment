@@ -15,7 +15,7 @@ load_dotenv()
 app = Flask(__name__)
 
 # Hugging Face API configuration
-API_URL = "https://api-inference.huggingface.co/models/tabularisai/multilingual-sentiment-analysis"
+API_URL = "https://router.huggingface.co/models/tabularisai/multilingual-sentiment-analysis"
 API_KEY = os.getenv("HUGGINGFACE_API_KEY")
 
 HEADERS = {
