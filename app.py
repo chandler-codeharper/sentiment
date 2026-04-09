@@ -15,8 +15,8 @@ load_dotenv()
 app = Flask(__name__)
 
 # Hugging Face API configuration
-API_URL = "https://router.huggingface.co/"
-API_KEY = os.getenv("HUGGINGFACE_API_KEY")
+API_URL = "https://huggingface.co"
+API_KEY = os.getenv("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")
 
 HEADERS = {
     "Authorization": f"Bearer {API_KEY}",
