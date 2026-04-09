@@ -16,7 +16,7 @@ app = Flask(__name__)
 
 # Hugging Face API configuration
 API_URL = "https://huggingface.co"
-API_KEY = os.getenv("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")
+API_KEY = os.getenv("HUGGINGFACE_API_KEY")
 
 HEADERS = {
     "Authorization": f"Bearer {API_KEY}",
